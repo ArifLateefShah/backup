@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async-each-series": "^1.1.0",
+    "body-parser": "~1.18.2",
+    "bootbot": "~1.0.14",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.2",
+    "google-alerts-api": "~0.2.2",
+    "json-update": "^3.0.0",
+    "jsonfile": "^4.0.0",
+    "morgan": "~1.9.0",
+    "node-cron": "^1.2.1",
+    "properties-reader": "0.0.16",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "~2.4.5",
+    "strformat": "0.0.7",
+    "update-json-file": "^1.1.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

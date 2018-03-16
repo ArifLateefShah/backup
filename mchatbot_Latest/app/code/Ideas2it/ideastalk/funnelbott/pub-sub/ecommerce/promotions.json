@@ -1,0 +1,36 @@
+{
+	"elements": [{
+			"title": "Argus All-Weather Tank",
+			"subtitle": "Flat 50% Off till tomorrow",
+			"image_url": "https://magentobot.ideas2it.com/pub/media/catalog/product/m/t/mt07-gray_main.jpg",
+			"default_action": {
+				"type": "web_url",
+				"url": "https://magentobot.ideas2it.com/argus-all-weather-tank.html",
+				"messenger_extensions": false,
+				"webview_height_ratio": "tall"
+			}
+
+		},
+		{"title": "Hero Hoodie",
+			"subtitle": "Flat 50% Off till tomorrow",
+			"image_url": "https://magentobot.ideas2it.com/pub/media/catalog/product/m/h/mh07-gray_main.jpg",
+			"default_action": {
+				"type": "web_url",
+				"url": "https://magentobot.ideas2it.com/hero-hoodie.html",
+				"messenger_extensions": false,
+				"webview_height_ratio": "tall"
+			}
+		},
+		{
+			"title": "Carina Basic Capri for Women",
+			"subtitle": "Flat 50% Off till tomorrow",
+			"image_url": "https://magentobot.ideas2it.com/pub/media/catalog/product/w/p/wp09-black_main.jpg",
+			"default_action": {
+				"type": "web_url",
+				"url": "https://magentobot.ideas2it.com/carina-basic-capri.html",
+				"messenger_extensions": false,
+				"webview_height_ratio": "tall"
+			}
+		}
+	]
+}

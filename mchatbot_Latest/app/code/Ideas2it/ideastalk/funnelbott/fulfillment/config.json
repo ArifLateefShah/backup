@@ -1,0 +1,20 @@
+{
+	"login_api": {
+		"url": "https://api.pipecandy.net/api/superAdmins/login"
+	},
+	"company_api": {
+		"url": "https://api.pipecandy.net/api/pdbSearches/internal/company"
+	},
+
+	"title_api": {
+		"url": "https://api.pipecandy.net/api/titleMappings?filter[fields][title_id]=true&filter[fields][title_standardized]=true"
+	},
+
+	"news_api": {
+		"url": "https://newsapi.org/v2/everything?q={name}&apiKey=0b12d04a17c24f1d8f7ad96ea0b95861"
+	},
+
+	"people_api": {
+		"url": "https://api.pipecandy.net/api/pdbSearches/internal/person"
+	}
+}
