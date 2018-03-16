@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+   <route url="/V1/test/" method="GET">
+       <service class="Ideas2it\ideastalk\Api\TestInterface"
+                method="test"/>
+       <resources>
+           <resource ref="anonymous"/>
+       </resources>
+   </route>
+   <route url="/V1/test1/:param" method="GET">
+       <service class="Ideas2it\ideastalk\Api\TestInterface"
+                method="test1"/>
+       <resources>
+           <resource ref="anonymous"/>
+       </resources>
+   </route>
+   <route url="/V1/webhook" method="POST">
+       <service class="Ideas2it\ideastalk\Api\TestInterface"
+                method="info"/>
+       <resources>
+           <resource ref="anonymous"/>
+       </resources>
+   </route>
+</routes>

@@ -1,0 +1,21 @@
+<!-- File: app/code/Pulsestorm/MenuTutorial/etc/adminhtml/menu.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ideas2it_ideastalk::top_level_example"
+             title="Ideas Talk"
+             module="Ideas2it_ideastalk"
+             sortOrder="9999"
+             resource="Magento_Backend::content"
+            />
+
+            <add id="Ideas2it_ideastalk::second_level_example"
+             title="Chat Log"
+             module="Ideas2it_ideastalk"
+             sortOrder="9999"
+             resource="Magento_Backend::content"
+
+             parent="Ideas2it_ideastalk::top_level_example"
+             action="ideastalk/webhook/"
+            />                        
+    </menu>
+</config>
