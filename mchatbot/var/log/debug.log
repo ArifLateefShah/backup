@@ -1,0 +1,7 @@
+[2018-03-08 13:31:23] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-08 13:33:24] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-08 14:17:26] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-08 14:18:39] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-08 14:19:39] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-09 06:24:47] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-03-09 06:24:53] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
